@@ -2,7 +2,7 @@ import { createProgramFromShaderSources, resizeCanvasToDisplaySize } from './uti
 import gl from './context';
 
 import vertexShaderSource from './shaders/shader.vert';
-import fragmentShaderSource from './shaders/rainbow3yoKid.frag';
+import fragmentShaderSource from './shaders/waves.frag';
 
 const main = () => {  
 	const program = createProgramFromShaderSources(gl, vertexShaderSource, fragmentShaderSource);
